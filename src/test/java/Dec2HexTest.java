@@ -1,14 +1,16 @@
+import junit.framework.*;
+
 public class Dec2HexTest {
 
     @org.junit.Test
 
     public void test1(){
 
-        String[] array = {};
+        Dec2Hex app = new Dec2Hex();
 
-        Dec2Hex.main(array);
+        String[] args = {"12"};
 
-        assertTrue(Dec2Hex.exited);
+        app.init(args);
 
     }
 
