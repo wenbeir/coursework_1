@@ -1,15 +1,15 @@
-import org.junit.jupiter.api.Test;
+public class Dec2HexTest {
 
-class Dec2HexTest {
+    @org.junit.Test
 
-    @Test
-    void testMain() {
-        // Setup
-        final String[] args = new String[]{};
+    public void test1(){
 
-        // Run the test
-        Dec2Hex.main(args);
+        String[] array = {};
 
-        // Verify the results
+        Dec2Hex.main(array);
+
+        assertTrue(Dec2Hex.exited);
+
     }
+
 }
