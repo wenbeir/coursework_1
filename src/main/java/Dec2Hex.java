@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class Dec2Hex
 {
 
@@ -22,7 +20,7 @@ class Dec2Hex
 
     else {
 
-            System.err.println("No value");
+            System.err.println("No value, please enter a value");
             System.exit(1);
 
 }

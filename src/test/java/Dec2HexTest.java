@@ -1,17 +1,11 @@
-import junit.framework.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Dec2HexTest {
-
-    @org.junit.Test
-
-    public void test1(){
-
-        Dec2Hex app = new Dec2Hex();
-
-        String[] args = {"12"};
-
-        app.init(args);
-
+class Dec2HexTest {
+    @Test
+    public void Test1() {
+        final String[] args = new String[]{"15"};
+        Dec2Hex.main(args);
+        assertEquals("F", Dec2Hex.Arg1);
     }
-
 }
